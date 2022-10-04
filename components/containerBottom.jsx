@@ -4,12 +4,12 @@ import QRCode from 'react-native-qrcode-svg';
 const ContainerBottom = () => {
     return (
       <View style={styles.container}>
-          <Text style={styles.blackText}>
+          <Text style={styles.blackBoldText}>
               Mi nombre es Álvaro Ramos Martín y actualmente
               soy estudiante del ciclo formativo de grado superior
               de DAM en los Salesianos La Cuesta.
               Me encantan los ordenadores
-              y espero aprender mucho de ellos en el futuro.
+              y espero aprender mucho de ellos en el futuro. 😁
           </Text>
           <QRCode value='https://github.com/AlvRM11/T1P1-PGL.git' />
       </View>
@@ -23,11 +23,12 @@ const ContainerBottom = () => {
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
-        backgroundColor: '#fff'
+        backgroundColor: '#A7B8F1'
       },
   
-      blackText: {
+      blackBoldText: {
           justifyContent: 'center',
+          fontWeight: 'bold',
           paddingLeft: 30,
           paddingRight: 30,
           paddingBottom: 80
