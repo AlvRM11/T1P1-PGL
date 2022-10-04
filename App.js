@@ -1,8 +1,12 @@
 import { StyleSheet, View } from 'react-native';
+import ContainerBottom from './components/containerBottom';
+import ContainerTop from './components/containerTop';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <ContainerTop />
+      <ContainerBottom />
     </View>
   );
 }
